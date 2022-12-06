@@ -27,7 +27,7 @@ sel3 = st.selectbox('2. Selection', ['Mg','Si','Cr'])
 x = np.linspace(0, 50, 50)
 fig, ax = plt.subplots()
 
-ax.plot(df[sel2], df[sel3])
+ax.scatter(df[sel2], df[sel3])
 
 st.pyplot(fig)
 
