@@ -5,6 +5,8 @@ import numpy as np
 
 st.title('My First App')
 
+st.selectbox('1', '2', '3')
+
 arr = np.random.normal(1, 1, size=100)
 fig, ax = plt.subplots()
 ax.hist(arr, bins=20)
