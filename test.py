@@ -21,8 +21,8 @@ st.write('Deine Auswahl ist:', sel1)
 
 df = pd.read_csv('Bastar Craton.csv')
 
-sel2 = st.selectbox('Selection', ['Mg','Si','Cr'])
-sel3 = st.selectbox('Selection', ['Mg','Si','Cr'])
+sel2 = st.selectbox('1. Selection', ['Mg','Si','Cr'])
+sel3 = st.selectbox('2. Selection', ['Mg','Si','Cr'])
 
 x = np.linspace(0, 50, 50)
 fig, ax = plt.subplots()
