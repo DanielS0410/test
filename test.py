@@ -23,7 +23,7 @@ df = pd.read_csv('Bastar Craton.csv')
 
 sel2 = st.selectbox('1. Selection', ['Mg','Si','Cr'])
 #sel3 = st.selectbox('2. Selection', ['Mg','Si','Cr'])
-pr = range(46)
+pr = [0:45]
 x = np.linspace(0, 50, 50)
 fig, ax = plt.subplots(46)
 
