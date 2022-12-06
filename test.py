@@ -34,4 +34,5 @@ sel2 = st.selectbox('1. Selection', ['Mg','Si','Cr'])
 
 
 
-df.iloc[:,0]
+#df.iloc[:,0]
+df
