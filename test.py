@@ -32,3 +32,6 @@ ax.scatter(sel2, df[sel2])
 st.pyplot(fig)
 
 
+
+
+df
