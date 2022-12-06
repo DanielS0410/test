@@ -14,6 +14,6 @@ st.write('Deine Auswahl ist:', sel1)
 x = np.linspace(0, 50, 50)
 fig, ax = plt.subplot()
 
-ax = plt.subplot(x, x**2)
+fig = ax.subplot(x, x**2)
 
 st.pyplot(fig)
